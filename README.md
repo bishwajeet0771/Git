@@ -19,6 +19,7 @@ Pros:
 
 1.1.1 EKS (Amazon Elastic Kubernetes Service)
 Pros:
+    
      Managed nodes
 
 ### 1.2 EKS vs. Self-Managed kubernetes: Pros and Cons
@@ -26,4 +27,5 @@ Pros:
 1.1.2 EKS (Amazon Elastic Kubernetes Service)
 
 Pros:
+    
      Manged nodes
