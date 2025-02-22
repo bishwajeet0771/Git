@@ -9,5 +9,21 @@ WanderLust is a simple MERN travel blog website ✈ This project is aimed to hel
 ### <mark>Project Architecture</mark>
 <img src="https://github.com/DevMadhup/Wanderlust-Mega-Project/blob/main/Assets/DevSecOps%2BGitOps.gif" />
 
+Pros:
+     
+
 #
 ![download](https://github.com/user-attachments/assets/deec9867-64aa-4ee5-a05b-7c93860b6773)
+
+### 1.1 EKS vs. Self-Managed Kubernetes: Pros and Cons
+
+1.1.1 EKS (Amazon Elastic Kubernetes Service)
+Pros:
+     Managed nodes
+
+### 1.2 EKS vs. Self-Managed kubernetes: Pros and Cons
+
+1.1.2 EKS (Amazon Elastic Kubernetes Service)
+
+Pros:
+     Manged nodes
