@@ -33,12 +33,12 @@ Visit: http://localhost:5000
 1. You provide a URL (via an environment variable at build time).
 
 2. Node.js with Puppeteer:
-   i.   Launches a headless Chromium browser.
-   ii.  Navigates to the given URL.
-   iii. Extracts:
-        i.   The <title> of the page.
-        ii.  The first <h1> element (if available).
-        iii. Saves this info to scraped_data.json.
+   - Launches a headless Chromium browser.
+   - Navigates to the given URL.
+   - Extracts:
+     - The <title> of the page.
+     - The first <h1> element (if available).
+     - Saves this info to scraped_data.json.
 
 Python Flask App:
 
