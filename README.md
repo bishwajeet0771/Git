@@ -46,10 +46,13 @@ A multi-stage Docker application that scrapes a webpage using Puppeteer (Node.js
 
 ```bash
 docker build --build-arg SCRAPE_URL="https://example.com" -t puppeteer-flask-app .
+```
 
+## ▶️ Run Instructions
 
-1.1.2 EKS (Amazon Elastic Kubernetes Service)
+```bash
+docker run -p 5000:5000 puppeteer-flask-app
+```
 
-Pros:
-    
-     Manged nodes
+## 🌐 Access the Scraped Content
+Visit: http://localhost:5000
