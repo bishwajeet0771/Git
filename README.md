@@ -40,12 +40,9 @@ Visit: http://localhost:5000
      - The first <h1> element (if available).
      - Saves this info to scraped_data.json.
 
-Python Flask App:
+3. Python Flask App:
+   - Reads that JSON file.
+   - Serves it at http://localhost:5000/ as JSON over HTTP.
 
-Reads that JSON file.
-
-Serves it at http://localhost:5000/ as JSON over HTTP.
-
-Docker Multi-Stage Build:
-
-Keeps final image minimal by excluding Chromium/Puppeteer from the runtime.
+4. Docker Multi-Stage Build:
+   - Keeps final image minimal by excluding Chromium/Puppeteer from the runtime.
