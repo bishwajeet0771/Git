@@ -1,10 +1,10 @@
-# 🕸️ Puppeteer Scraper + Flask Server
+# Puppeteer Scraper + Flask Server
 
 A multi-stage Docker application that scrapes a webpage using Puppeteer (Node.js) and serves the result via Flask (Python).
 
 ---
 
-## 🚀 Features
+## Features
 
 - Uses **Node.js** and **Chromium** to scrape web pages.
 - Uses **Python Flask** to serve the data.
@@ -13,23 +13,7 @@ A multi-stage Docker application that scrapes a webpage using Puppeteer (Node.js
 
 ---
 
-## 🛠️ Build Instructions
-
-```bash
-docker build --build-arg SCRAPE_URL="https://example.com" -t puppeteer-flask-app .
-```
-
-## ▶️ Run Instructions
-
-```bash
-docker run -p 5000:5000 puppeteer-flask-app
-```
-
-## 🌐 Access the Scraped Content
-Visit: http://localhost:5000
-
-
-## ✅ How It Works
+## How It Works
 1. You provide a URL (via an environment variable at build time).
 
 2. Node.js with Puppeteer:
@@ -46,3 +30,22 @@ Visit: http://localhost:5000
 
 4. Docker Multi-Stage Build:
    - Keeps final image minimal by excluding Chromium/Puppeteer from the runtime.
+## Example Test (Real URL)
+Say you want to scrape https://www.bbc.com 
+
+## Build the Image
+
+```bash
+docker build --build-arg SCRAPE_URL=https://www.bbc.com -t web-scraper-app .
+```
+
+## Run the Container
+
+```bash
+docker run -p 5000:5000 web-scraper-app
+```
+
+## 🌐 View the Output
+Open your browser:
+http://localhost:5000
+
