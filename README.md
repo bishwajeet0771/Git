@@ -49,3 +49,6 @@ docker run -p 5000:5000 web-scraper-app
 Open your browser:
 http://localhost:5000
 
+![Screenshot (1)](https://github.com/user-attachments/assets/d7ad1c0c-16dc-45bd-8a11-30c30c1bf1b0)
+
+
